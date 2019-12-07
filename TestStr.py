@@ -16,7 +16,7 @@ class Test(unittest.TestCase)
         self.assertEqual(program.DoCapitalize("hello"), "Hello")
 
     def tes_split(self):
-        self.assertEqual(program.DoSplit("Dzien dobry"), "Dzien",g "dobry")
+        self.assertEqual(program.DoSplit("Dzien dobry"), "Dzien", "dobry")
 
 
 if __name__ == '__main__':
